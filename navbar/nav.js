@@ -3,11 +3,11 @@ const navbar= document.getElementById('navbar');
 const navlink= document.getElementById("navbar-links");
 const newlist = document.createElement("li");
 const anchor= document.createElement("a");
-const link = document.createTextNode("gallery");
+const link = document.createTextNode("about us");
 addlink= ()=>{
   anchor.appendChild(link);
-  anchor.title = "gallery";
-  anchor.href = "#";
+  anchor.title = "about us";
+  anchor.href = "/about pages/about";
   anchor.className= "navbar-link";
   anchor.style.paddingLeft="2rem";
   newlist.appendChild(anchor);
